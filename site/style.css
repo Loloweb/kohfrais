@@ -1,0 +1,22 @@
+footer, header, aside, main, article{
+    background-color: aquamarine;
+    border:1px solid black;
+}
+
+.menu{
+    background-color: bisque;
+    height: 3em;
+}
+
+main{
+    background-color: blue;
+    height: 9em;
+}
+
+article{
+    background-color: brown;
+}
+
+aside{
+    background-color: red;
+}
