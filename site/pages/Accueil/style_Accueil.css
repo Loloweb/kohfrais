@@ -29,7 +29,7 @@
     font-style: normal;
 }
 
-.header{
+.Accueil .header{
     width:50px;
     height:50px;
     display:inline-block;
@@ -39,62 +39,61 @@
     top:190px;
 }
 
-h2{
+.Accueil h2{
     font-family: 'poppins', arial, open-sans;
 }
 
-body{
+.Accueil body{
     background-color: #E8FCFE;
 }
 
-header{
+.Accueil header{
     background-color: #6AB0FE;
     padding:1em;
     border-bottom: 2px solid black;
 
 }
 
-header article section nav ul{
+.Accueil header article section nav ul{
     font-family: 'nobile', arial, sans-serif;
     background-color: #7BC8E8;
     border-radius: 30px;
     border: 2px solid black;
 }
 
-header article section nav ul li{
+.Accueil header article section nav ul li{
     font-size: 2em;
     list-style: none;
     text-align: center;
 }
 
-main{
+.Accueil main{
     text-align: center;
 }
 
-main section{
+.Accueil main section{
     margin:1em;
 }
 
-main section article{
+.Accueil main section article{
     text-align: center;
 }
 
-footer{
+.Accueil footer{
     background-color: #6AB0FE;
     border: 1px solid black;
     height:40px;
 }
 
-main div p{
+.Accueil main div p{
     font-size: 5em;
 }
-
-.separation{
+.Accueil .separation{
     font-weight: bold;
     font-size: 5px;
 }
 
-main section:first-of-type h2{
+.Accueil main section:first-of-type h2{
     border: black solid 2px;
     border-bottom: none;
     padding: 0em;
@@ -103,7 +102,7 @@ main section:first-of-type h2{
     box-shadow: 3px 5px 10px black;
 }
 
-main section:first-of-type figure{
+.Accueil main section:first-of-type figure{
     border: black solid 2px;
     border-top: none;
     margin: 0em;
@@ -113,33 +112,33 @@ main section:first-of-type figure{
     border-bottom-left-radius: 10px;
 }
 
-main img{
+.Accueil main img{
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
     width: 100%;
     box-shadow: 5px 0px 10px black;
 }
 
-#Carousel{
+.Accueil #Carousel{
     width: 100%;
     margin-top: 1em;
     padding-top: 1em;
 }
 
-#Carousel img{
+.Accueil #Carousel img{
     height: 300px;
 }
 
-.slide_1 img{
+.Accueil .slide_1 img{
     padding: 0px;
     margin: 0px;
 }
 
-#Carousel{
+.Accueil #Carousel{
     font-family: 'poppins', arial, open-sans;
 }
 
-.slide_1 h2:first-child{
+.Accueil .slide_1 h2:first-child{
     display: inline-block;
     position: absolute;
     width: auto;
@@ -151,7 +150,7 @@ main img{
     padding: 0.5em;
 }
 
-.slide_1 img+h2{
+.Accueil .slide_1 img+h2{
     display: inline-block;
     position: absolute;
     width: auto;
@@ -165,7 +164,7 @@ main img{
     text-align: end;
 }
 
-.slide_2 h2:first-child{
+.Accueil .slide_2 h2:first-child{
     display: inline-block;
     position: absolute;
     width: auto;
@@ -178,7 +177,7 @@ main img{
     color: white;
 }
 
-.slide_3 h2:first-child {
+.Accueil .slide_3 h2:first-child {
     display: inline-block;
     position: absolute;
     width: auto;
@@ -191,7 +190,7 @@ main img{
     color: white;
 }
 
-.slide_3 img+h2{
+.Accueil .slide_3 img+h2{
     display: inline-block;
     position: absolute;
     width: auto;
@@ -206,7 +205,7 @@ main img{
 
 
 
-main div+section div article:first-child figure img:first-child{
+.Accueil main div+section div article:first-child figure img:first-child{
     display: inline-block;
     position: absolute;
     top:30px;
@@ -217,7 +216,7 @@ main div+section div article:first-child figure img:first-child{
     z-index: 0;
 }
 
-main div+section div article:first-child h2{
+.Accueil main div+section div article:first-child h2{
     display: inline-block;
     position: absolute;
     bottom: 30px;
@@ -229,11 +228,11 @@ main div+section div article:first-child h2{
     border-radius: 10px;
 }
 
-main div+section div article figure img{
+.Accueil main div+section div article figure img{
     border-radius: 10px;
 }
 
-main div+section div article+article h2{
+.Accueil main div+section div article+article h2{
     display: inline-block;
     position: absolute;
     top: 30px;
