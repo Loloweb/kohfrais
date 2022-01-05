@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'butler';
+    src: url(../../polices/butler/Butler.woff)format('woff');
+    src: url(../../polices/butler/Butler.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open-sans';
+    src: url(../../polices/open_sans/opensans-regular-webfont.woff) format(woff);
+    src: url(../../polices/open_sans/opensans-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../../polices/poppins/poppins-regular-webfont.woff) format(woff);
+    src: url(../../polices/poppins/poppins-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nobile';
+    src: url(../../polices/nobile/nobile-regular-webfont.woff) format(woff);
+    src: url(../../polices/nobile/nobile-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    position:absolute;
+    background-color:black;
+    left:370px;
+    top:190px;
+}
+
+header{
+    background-color: #6AB0FE;
+    padding:1em;
+    border-bottom: 2px solid black;
+
+}
+
+header article section nav ul{
+    font-family: 'nobile', arial, sans-serif;
+    background-color: #7BC8E8;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header article section nav ul li{
+    font-size: 2em;
+    list-style: none;
+    text-align: center;
+}
