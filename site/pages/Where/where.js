@@ -43,5 +43,4 @@ $(function() { // premier entrainement javascript
             }, 5));
         }
     });
-    
 });
