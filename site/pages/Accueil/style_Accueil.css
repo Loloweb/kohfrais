@@ -28,6 +28,24 @@
     font-weight: normal;
     font-style: normal;
 }
+a{
+    color:black;
+
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:focus{
+    color:red;
+}
+a:active{
+    color:#E8FCFE;
+}
+
 
 .Accueil .header{
     width:50px;
@@ -138,69 +156,77 @@
     font-family: 'poppins', arial, open-sans;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1000000px) {
+
+    .Accueil .slide_1 img{
+        width:33%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .Accueil .slide_1 img{
+        width:50%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+    .Accueil .slide_1 img{
+        width:90%;
+    }
+}
+
+.Accueil .slide_1{
+    height:450px;
+    background-color: white;
+}
 .Accueil .slide_1 h2:first-child{
-    display: inline-block;
-    position: absolute;
-    width: auto;
-    left:75px;
-    top:10px;
-    z-index: 1;
-    background-color: rgba(250, 250, 250, 0.3);
     border-radius: 10px;
     padding: 0.5em;
 }
 
 .Accueil .slide_1 img+h2{
-    display: inline-block;
-    position: absolute;
-    width: auto;
-    right:100px;
-    bottom:10px;
-    z-index: 1;
-    background-color: rgba(0,0,0, 0.3);
-    color: white;
     border-radius: 10px;
     padding: 0.5em;
-    text-align: end;
 }
 
+
+.Accueil .slide_2 {
+    background-image: url(../../PHOTOS/Fruits_framboises.jpg);
+    background-repeat: no-repeat;
+    height:450px;
+
+}
 .Accueil .slide_2 h2:first-child{
-    display: inline-block;
-    position: absolute;
-    width: auto;
-    right: 75px;
-    top:10px;
-    z-index: 1;
-    background-color: rgba(0,0,0, 0.3);
+    width:auto;
     border-radius: 10px;
     padding: 0.5em;
     color: white;
 }
 
 .Accueil .slide_3 h2:first-child {
-    display: inline-block;
-    position: absolute;
-    width: auto;
-    left: 100px;
-    top:10px;
-    z-index: 1;
-    background-color: rgba(0,0,0, 0.1);
     border-radius: 10px;
     padding: 0.5em;
     color: white;
 }
 
-.Accueil .slide_3 img+h2{
-    display: inline-block;
-    position: absolute;
-    width: auto;
-    right: 75px;
-    bottom:10px;
-    z-index: 1;
-    background-color: rgba(0,0,0, 0.1);
+.Accueil .slide_3 figure+h2{
     border-radius: 10px;
     padding: 0.5em;
     color: white;
+}
+
+.Accueil .slide_3 {
+    background-color: #6AB0FE;
+    height:450px;  
+}
+
+/*******POUR LES FAMILLES*********/
+
+
+main article{
+    margin: 1em;
 }
 
 
