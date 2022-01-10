@@ -197,7 +197,7 @@ body {
     top: 344px;
 
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 12px;
 
     font-weight: bold;
 
@@ -215,7 +215,7 @@ body {
     top: 434px;
 
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 12px;
 
     font-weight: bold;
 
@@ -233,7 +233,7 @@ body {
     top: 524px;
 
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 12px;
 
     font-weight: bold;
 
@@ -251,7 +251,7 @@ body {
     top: 614px;
 
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 12px;
 
     font-weight: bold;
 
@@ -269,7 +269,7 @@ body {
     top: 704px;
 
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 12px;
 
     font-weight: bold;
 
@@ -277,4 +277,14 @@ body {
     border-radius: 10px;
 
     border : 2px solid black;
+}
+
+.text1, .text2 {
+    width:200px;
+    float:left;
+}
+
+.text2{
+    padding-left: 975px;
+    padding-top: 0px;
 }
