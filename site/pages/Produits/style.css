@@ -30,7 +30,7 @@
 }
 a{
     color:black;
-
+    text-decoration: none;
 }
 
 a:link{
@@ -137,91 +137,6 @@ a:active{
     box-shadow: 5px 0px 10px black;
 }
 
-.Accueil #Carousel{
-    width: 100%;
-    margin-top: 1em;
-    padding-top: 1em;
-}
-
-.Accueil #Carousel img{
-    height: 300px;
-}
-
-.Accueil .slide_1 img{
-    padding: 0px;
-    margin: 0px;
-}
-
-.Accueil #Carousel{
-    font-family: 'poppins', arial, open-sans;
-}
-
-@media screen and (min-width: 992px) and (max-width: 1000000px) {
-
-    .Accueil .slide_1 img{
-        width:33%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
-    .Accueil .slide_1 img{
-        width:50%;
-    }
-}
-
-@media screen and (min-width: 0px) and (max-width: 768px) {
-
-    .Accueil .slide_1 img{
-        width:90%;
-    }
-}
-
-.Accueil .slide_1{
-    height:450px;
-    background-color: white;
-}
-.Accueil .slide_1 h2:first-child{
-    border-radius: 10px;
-    padding: 0.5em;
-}
-
-.Accueil .slide_1 img+h2{
-    border-radius: 10px;
-    padding: 0.5em;
-}
-
-
-.Accueil .slide_2 {
-    background-image: url(../../PHOTOS/Fruits_framboises.jpg);
-    background-repeat: no-repeat;
-    height:450px;
-
-}
-.Accueil .slide_2 h2:first-child{
-    width:auto;
-    border-radius: 10px;
-    padding: 0.5em;
-    color: white;
-}
-
-.Accueil .slide_3 h2:first-child {
-    border-radius: 10px;
-    padding: 0.5em;
-    color: white;
-}
-
-.Accueil .slide_3 figure+h2{
-    border-radius: 10px;
-    padding: 0.5em;
-    color: white;
-}
-
-.Accueil .slide_3 {
-    background-color: #6AB0FE;
-    height:450px;  
-}
-
 /*******POUR LES FAMILLES*********/
 
 
@@ -270,3 +185,73 @@ main article{
     border-radius: 10px;
 }
 
+body {
+    background-color: #E8FCFE;
+}
+
+/*.rectangle{
+    position: absolute;
+width: 1295px;
+height: 55px;
+left: 70px;
+top: 345px;
+
+border: 4px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+}*/
+
+.rectangle2{
+    position: absolute;
+width: 1293.63px;
+height: 55.06px;
+left: 71px;
+top: 344px;
+
+background: #7BC8E8;
+border-radius: 10px;
+}
+
+.rectangle3{
+    position: absolute;
+width: 1293.63px;
+height: 55.06px;
+left: 71px;
+top: 434px;
+
+background: #7BC8E8;
+border-radius: 10px;
+}
+
+.rectangle4{
+    position: absolute;
+width: 1293.63px;
+height: 55.06px;
+left: 71px;
+top: 524px;
+
+background: #7BC8E8;
+border-radius: 10px;
+}
+
+.rectangle5{
+    position: absolute;
+width: 1293.63px;
+height: 55.06px;
+left: 71px;
+top: 614px;
+
+background: #7BC8E8;
+border-radius: 10px;
+}
+
+.rectangle6{
+    position: absolute;
+width: 1293.63px;
+height: 55.06px;
+left: 71px;
+top: 704px;
+
+background: #7BC8E8;
+border-radius: 10px;
+}
