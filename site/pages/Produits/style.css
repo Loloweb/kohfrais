@@ -199,8 +199,7 @@ body {
     background: #7BC8E8;
     border-radius: 10px;
 
-    border-color: black;
-    border-width: 10px;
+    border : 2px solid black;
 }
 
 .rectangle3{
@@ -212,6 +211,8 @@ body {
 
     background: #7BC8E8;
     border-radius: 10px;
+
+    border : 2px solid black;
 }
 
 .rectangle4{
@@ -223,6 +224,8 @@ body {
 
     background: #7BC8E8;
     border-radius: 10px;
+
+    border : 2px solid black;
 }
 
 .rectangle5{
@@ -234,6 +237,8 @@ body {
 
     background: #7BC8E8;
     border-radius: 10px;
+
+    border : 2px solid black;
 }
 
 .rectangle6{
@@ -245,5 +250,7 @@ body {
 
     background: #7BC8E8;
     border-radius: 10px;
+
+    border : 2px solid black;
 }
 
