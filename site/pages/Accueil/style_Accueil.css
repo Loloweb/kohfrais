@@ -61,7 +61,11 @@ a:active{
     font-family: 'poppins', arial, open-sans;
 }
 
-.Accueil body{
+button{
+    z-index:1;
+}
+
+body{
     background-color: #E8FCFE;
 }
 
