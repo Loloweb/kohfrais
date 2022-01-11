@@ -119,36 +119,10 @@ li{
     font-size: 5px;
 }
 
-.Accueil main section:first-of-type h2{
-    border: black solid 2px;
-    border-bottom: none;
-    padding: 0em;
-    margin:0px;
-    height: 2em;
-    box-shadow: 3px 5px 10px black;
-}
-
-.Accueil main section:first-of-type figure{
-    border: black solid 2px;
-    border-top: none;
-    margin: 0em;
-    padding: 0em;
-    width: 100%;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.Accueil main img{
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    width: 100%;
-    box-shadow: 5px 0px 10px black;
-}
-
 .Accueil #Carousel{
     width: 100%;
     margin-top: 1em;
-    padding-top: 1em;
+    margin-bottom: 5em;
 }
 
 .Accueil #Carousel img{
@@ -232,30 +206,41 @@ li{
 
 /*******POUR LES FAMILLES*********/
 
-
-main article{
-    margin: 1em;
+.Accueil main div+section article:first-child{
+    background-image: url(../../PHOTOS/photo_famille.jpg);
 }
 
+/*******POUR LES PROFESSIONNEL*********/
 
-
-.Accueil main div+section div article:first-child figure img:first-child{
-    display: inline-block;
-    position: absolute;
-    top:30px;
-    right: 150px;
-    height:120px;
-    width: 66px;
-    background-color: rgba(0,0,0,0);
-    z-index: 0;
+.Accueil main div+section article+article{
+    background-image: url(../../PHOTOS/Pro.jpeg);
 }
 
-.Accueil main div+section div article:first-child h2{
-    display: inline-block;
-    position: absolute;
-    bottom: 30px;
-    left: 50px;
-    background-color: rgba(0,0,0, 0.2);
+/*******OU SOMMES NOUS*********/
+
+.Accueil main section+section div article{
+    background-image: url(../../PHOTOS/bretagne.png);
+}
+/*******QUI SOMMES NOUS*********/
+
+.Accueil main section+section div article+article{
+    background-image: url(../../PHOTOS/Bac_glace2.jpg);
+
+}
+.Accueil main article{
+    height:300px;
+    width:450px;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 5px 0px 10px black;
+}
+
+.Accueil main article{
+    margin: 2em;
+}
+
+.Accueil main section h2{
+    background-color: rgba(0,0,0, 0.3);
     border-radius: 10px;
     padding: 0.5em;
     color: white;
@@ -265,16 +250,3 @@ main article{
 .Accueil main div+section div article figure img{
     border-radius: 10px;
 }
-
-.Accueil main div+section div article+article h2{
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    background-color: rgba(0,0,0, 0.2);
-    border-radius: 10px;
-    padding: 0.5em;
-    color: white;
-    border-radius: 10px;
-}
-
