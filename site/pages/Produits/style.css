@@ -196,6 +196,11 @@ body {
     left: 55px;
     top: 344px;
 
+    padding-left: 50px;
+    padding-top: 12px;
+
+    font-weight: bold;
+
     background: #7BC8E8;
     border-radius: 10px;
 
@@ -208,6 +213,11 @@ body {
     height: 55.06px;
     left: 55px;
     top: 434px;
+
+    padding-left: 50px;
+    padding-top: 12px;
+
+    font-weight: bold;
 
     background: #7BC8E8;
     border-radius: 10px;
@@ -222,6 +232,11 @@ body {
     left: 55px;
     top: 524px;
 
+    padding-left: 50px;
+    padding-top: 12px;
+
+    font-weight: bold;
+
     background: #7BC8E8;
     border-radius: 10px;
 
@@ -234,6 +249,11 @@ body {
     height: 55.06px;
     left: 55px;
     top: 614px;
+
+    padding-left: 50px;
+    padding-top: 12px;
+
+    font-weight: bold;
 
     background: #7BC8E8;
     border-radius: 10px;
@@ -248,9 +268,23 @@ body {
     left: 55px;
     top: 704px;
 
+    padding-left: 50px;
+    padding-top: 12px;
+
+    font-weight: bold;
+
     background: #7BC8E8;
     border-radius: 10px;
 
     border : 2px solid black;
 }
 
+.text1, .text2 {
+    width:200px;
+    float:left;
+}
+
+.text2{
+    padding-left: 975px;
+    padding-top: 0px;
+}
