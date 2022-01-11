@@ -189,6 +189,9 @@ body {
     background-color: #E8FCFE;
 }
 
+@media (min-width: 800px)
+{
+
 .rectangle2{
     position: absolute;
     width: 1293.63px;
@@ -277,6 +280,7 @@ body {
     border-radius: 10px;
 
     border : 2px solid black;
+}
 }
 
 .text1, .text2 {
