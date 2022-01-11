@@ -29,6 +29,10 @@
     font-style: normal;
 }
 
+.navbar-nav {
+    flex-direction: row!important;
+}
+
 a:link{
     color:black;
 }
