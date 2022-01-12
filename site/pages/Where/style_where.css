@@ -67,14 +67,14 @@ header{
 
 }
 
-header article section nav ul{
+header section nav ul{
     font-family: 'nobile', arial, sans-serif;
     background-color: #7BC8E8;
     border-radius: 30px;
     border: 2px solid black;
 }
 
-header article section nav ul li{
+header section nav ul li{
     font-size: 2em;
     list-style: none;
     text-align: center;

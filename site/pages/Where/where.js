@@ -4,21 +4,22 @@ function initMap() {
     const lannion = { lat: 48.732084, lng: -3.459144 };
     // The location of Pontivy
     const pontivy = { lat: 48.066152, lng: -2.967056 };
-    // Map, centered at Lannion
+    // Map1, centered at Lannion
     const map1 = new google.maps.Map(document.getElementById("map1"), {
       zoom: 10,
       center: lannion,
     });
+    // Map2, centered at Pontivy
     const map2 = new google.maps.Map(document.getElementById("map2"), {
         zoom: 10,
         center: pontivy,
     });
-    // Marker, positioned at Lannion
+    // Marker for map1, positioned at Lannion
     const marker1 = new google.maps.Marker({
       position: lannion,
       map: map1,
     });
-    // Marker, positioned at Pontivy
+    // Marker for map2, positioned at Pontivy
     const marker2 = new google.maps.Marker({
         position: pontivy,
         map: map2,
