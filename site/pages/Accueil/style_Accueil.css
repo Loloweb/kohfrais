@@ -1,3 +1,7 @@
+/*****************************************************************************/
+/*************************** POLICES******************************************/
+/*****************************************************************************/
+
 @font-face{
     font-family: 'butler';
     src: url(../../polices/butler/Butler.woff)format('woff');
@@ -28,22 +32,10 @@
     font-weight: normal;
     font-style: normal;
 }
-a{
-    color:black;
-}
-a:link{
-    color:black;
-}
-a:visited{
-    color:black;
-}
-a:focus{
-    color:red;
-}
-a:active{
-    color:#E8FCFE;
-}
 
+/*****************************************************************************/
+/******************************* GENERAL *************************************/
+/*****************************************************************************/
 .Accueil h2{
     font-family: 'poppins', arial, open-sans;
 }
@@ -51,82 +43,9 @@ a:active{
 body{
     background-color: #E8FCFE;
 }
-
-
-header{
-    font-family: 'nobile', arial, sans-serif;
-    background-color: #6AB0FE;
-    padding:1em;
-    border-bottom: 2px solid black;
-
-}
-
-header section nav{
-    background-color: #7BC8E8;
-    border-radius: 30px;
-    border: 2px solid black;
-}
-
-header section nav ul li{
-    font-size: 2em;
-    list-style: none;
-    text-align: center;
-}
-
-
-.Accueil main{
-    text-align: center;
-}
-
-.Accueil main section{
-    margin:1em;
-}
-
-.Accueil main section article{
-    text-align: center;
-}
-
-.Accueil footer{
-    background-color: #6AB0FE;
-    border: 1px solid black;
-}
-.Accueil footer section{
-    margin: 1em;
-}
-.Accueil footer p{
-    margin:1em;
-}
-.Accueil footer section:first-child{
-    display: inli
-}
-
-.Accueil main div p{
-    font-size: 5em;
-}
-.Accueil .separation{
-    font-weight: bold;
-    font-size: 5px;
-}
-
-.Accueil #Carousel{
-    width: 100%;
-    margin-top: 1em;
-    margin-bottom: 5em;
-}
-
-.Accueil #Carousel img{
-    height: 300px;
-}
-
-.Accueil .slide_1 img{
-    padding: 0px;
-    margin: 0px;
-}
-
-.Accueil #Carousel{
-    font-family: 'poppins', arial, open-sans;
-}
-
+/*****************************************************************************/
+/*************************** MEDIA QUERY *************************************/
+/*****************************************************************************/
 @media screen and (min-width: 992px) and (max-width: 1000000px) {
 
     .Accueil .slide_1 img{
@@ -148,6 +67,80 @@ header section nav ul li{
     }
 }
 
+/*****************************************************************************/
+/*************************** LIENS ******************************************/
+/*****************************************************************************/
+a{
+    color:black;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:focus{
+    color:red;
+}
+a:active{
+    color:#E8FCFE;
+}
+
+
+
+/*****************************************************************************/
+/*************************** HEADER ******************************************/
+/*****************************************************************************/
+
+
+header{
+    font-family: 'nobile', arial, sans-serif;
+    background-color: #6AB0FE;
+    padding:1em;
+    border-bottom: 2px solid black;
+
+}
+
+header article nav{
+    background-color: #7BC8E8;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header article nav ul li{
+    font-size: 2em;
+    list-style: none;
+    text-align: center;
+}
+
+/*****************************************************************************/
+/*************************** ACCUEIL *****************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/****************************** CAROUSEL ************************************/
+/*****************************************************************************/
+
+
+.Accueil #Carousel{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.Accueil #Carousel img{
+    height: 300px;
+}
+
+.Accueil #Carousel{
+    font-family: 'poppins', arial, open-sans;
+}
+
+.Accueil .slide_1 img{
+    padding: 0px;
+    margin: 0px;
+}
+
 .Accueil .slide_1{
     height:450px;
     background-color: #E8FCFE;
@@ -161,7 +154,6 @@ header section nav ul li{
     border-radius: 10px;
     padding: 0.5em;
 }
-
 
 .Accueil .slide_2 {
     background-image: url(../../PHOTOS/Fruits_framboises.jpg);
@@ -191,6 +183,31 @@ header section nav ul li{
 .Accueil .slide_3 {
     background-color: #6AB0FE;
     height:450px;  
+}
+
+/*****************************************************************************/
+/****************************** MAIN *****************************************/
+/*****************************************************************************/
+
+
+.Accueil main{
+    text-align: center;
+}
+
+.Accueil main section{
+    margin:1em;
+}
+
+.Accueil main section article{
+    text-align: center;
+}
+
+.Accueil main div p{
+    font-size: 5em;
+}
+.Accueil .separation{
+    font-weight: bold;
+    font-size: 5px;
 }
 
 /*******POUR LES FAMILLES*********/
@@ -239,4 +256,19 @@ header section nav ul li{
 
 .Accueil main div+section div article figure img{
     border-radius: 10px;
+}
+
+/*****************************************************************************/
+/**************************** FOOTER *****************************************/
+/*****************************************************************************/
+
+.Accueil footer{
+    background-color: #6AB0FE;
+    border: 1px solid black;
+}
+.Accueil footer section{
+    margin: 1em;
+}
+.Accueil footer p{
+    margin:1em;
 }
