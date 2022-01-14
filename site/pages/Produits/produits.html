@@ -15,60 +15,141 @@
 
     </head>
 
-     <body>
+    <body>
         <div class="container-fluid Accueil">
 
-            <header class="row">
+            <header class="row align-items-center">
 
-                <article class="row align-items-center">
                     
-                    <div class="col-lg-4 align-items-center logo">
+                <div class="col-lg-5 justify-content-center align-items-center logo">
 
-                        <figure class="col-lg-3 offset-1 ">
-                            <a href="index.html"><img src="../../logo koh frais png/logo Koh Frais 2.png" alt="KOH Frais" title="Logo KOH Frais" height="184px"></a>
-                        </figure>
-                    </div>
+                    <figure class="d-lg-inline col-lg-5
+                                    d-md-none
+                                    d-sm-none
+                                    d-none
+                                    offset-2 ">
+                        <a href="index.html"><img src="../../logo koh frais png/logo Koh Frais 2.png" alt="KOH Frais" title="Logo KOH Frais" height="184px"></a>
+                    </figure>
 
-                    <section class="col-lg-8">
+                    <figure class="d-lg-none
+                                    d-sm-inline col-sm-5
 
-                        <nav class="row justify-content-center">
+                                    offset-3 
+                                    justify-content-center">
+                        <a href="index.html"><img src="../../logo koh frais png/icone glace 2.png" alt="KOH Frais" title="Logo KOH Frais" height="184px"></a>
+                    </figure>
+                </div>
 
-                            <ul class="row ">
+                             
+                <section class="col-lg-7">
 
-                                <li class="col-lg-2"> <a href="index.html"> Accueil</a></li>
-                                <li class="col-lg-4"> <a href="NosProduits.html">Nos produits</a> </li>
-                                <li class="col-lg-3"> <a href="NousTrouver.html"> Nous trouver</a></li>
-                                <li class="col-lg-3"> <a href="NosValeurs"> Nos valeurs</a></li>
+                    <nav class="navbar nav-bar-expand-lg navbar-light bg-#6AB0FE">
+                        <button class="align-items-center d-lg-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                            <span class=" navbar-toggler-icon"></span>
+                        </button>
+                        <div class="row d-inline collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class=" navbar-nav">
+
+                                <li class=" nav-item"> <a class="nav-link" href="index.html #"> Accueil</a></li>
+                                <li class=" nav-item"> <a class="nav-link" href="NosProduits.html #">Nos produits</a> </li>
+                                <li class=" nav-item"> <a class="nav-link" href="NousTrouver.html #"> Nous trouver</a></li>
+                                <li class=" nav-item"> <a class="nav-link"href="NosValeurs #"> Nos valeurs</a></li>
                             </ul>
+                        </div>
+                    </nav>
 
-                        </nav>
-
-                    </section>
-
-                </article>
+                </section>
 
             </header>
         </div>
         <main>
-            <div class="rectangle2">
-                <div class="text1">Coulis</div><div class="text2">+infos</div>
-            </div>
 
-            <div class="rectangle3">
-                <div class="text1">Coupes Individuelles</div><div class="text2">+infos</div>
-            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="rectangle2">
+                            <div class="text1">Coulis</div><div class="text2">+infos</div>
+                        </div>
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="rectangle3">
+                            <div class="text1">Coupes Individuelles</div><div class="text2">+infos</div>
+                        </div>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim test
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="rectangle4">
+                            <div class="text1">Glaces Italiennes</div><div class="text2">+infos</div>
+                        </div>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim 
+                    </div>
+                  </div>
+                </div>
 
-            <div class="rectangle4">
-                <div class="text1">Glaces Italiennes</div><div class="text2">+infos</div>
-            </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="rectangle5">
+                                <div class="text1">Vacherins</div><div class="text2">+infos</div>
+                            </div>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim 
+                      </div>
+                    </div>
+                  </div>
 
-            <div class="rectangle5">
-                <div class="text1">Vacherins</div><div class="text2">+infos</div>
-            </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="rectangle6">
+                                <div class="text1">Bacs</div><div class="text2">+infos</div>
+                            </div>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim 
+                      </div>
+                    </div>
+                  </div>
+              </div>
 
-            <div class="rectangle6">
-                <div class="text1">Bacs</div><div class="text2">+infos</div>
-            </div>
             </article>
         </main>
     </body>
