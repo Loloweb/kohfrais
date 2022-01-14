@@ -28,9 +28,7 @@
     font-weight: normal;
     font-style: normal;
 }
-a{
-    color:black;
-}
+
 a:link{
     color:black;
 }
@@ -44,18 +42,7 @@ a:active{
     color:#E8FCFE;
 }
 
-
-.Accueil .header{
-    width:50px;
-    height:50px;
-    display:inline-block;
-    position:absolute;
-    background-color:black;
-    left:370px;
-    top:190px;
-}
-
-.Accueil h2{
+h2{
     font-family: 'poppins', arial, open-sans;
 }
 
@@ -63,312 +50,47 @@ body{
     background-color: #E8FCFE;
 }
 
-.Accueil header{
+header{
+    font-family: 'nobile', arial, sans-serif;
     background-color: #6AB0FE;
     padding:1em;
     border-bottom: 2px solid black;
 
 }
 
-.Accueil header section nav ul{
-    font-family: 'nobile', arial, sans-serif;
+header section nav{
     background-color: #7BC8E8;
-    border-radius: 30px;
-    border: 2px solid black;
+    border-radius: 30px!important;
+    border: 2px solid black!important;
 }
 
-.Accueil header section nav ul li{
+header section nav ul li{
     font-size: 2em;
     list-style: none;
     text-align: center;
 }
 
-.Accueil main{
-    text-align: center;
+#accordionFlushExample{
+    padding: 100px 50px;
 }
 
-.Accueil main section{
-    margin:1em;
+.accordion-item{
+    margin: 20px 0px;
+
+    background-color: #7BC8E8;
+
+    border-radius: 10px!important;
 }
 
-.Accueil main section article{
-    text-align: center;
+.flush-collapseOne{
+    margin: 15px 0px !important;
 }
 
-.Accueil footer{
-    background-color: #6AB0FE;
-    border: 1px solid black;
-    height:40px;
-}
+img{
 
-.Accueil main div p{
-    font-size: 5em;
-}
-.Accueil .separation{
-    font-weight: bold;
-    font-size: 5px;
-}
+    height: 7%;
+    width: 7%;
 
-/*******POUR LES FAMILLES*********/
-
-.Accueil main div+section article:first-child{
-    background-image: url(../../PHOTOS/photo_famille.jpg);
-}
-
-/*******POUR LES PROFESSIONNEL*********/
-
-.Accueil main div+section article+article{
-    background-image: url(../../PHOTOS/Pro.jpeg);
-}
-
-/*******OU SOMMES NOUS*********/
-
-.Accueil main section+section div article{
-    background-image: url(../../PHOTOS/bretagne.png);
-}
-/*******QUI SOMMES NOUS*********/
-
-.Accueil main section+section div article+article{
-    background-image: url(../../PHOTOS/Bac_glace2.jpg);
-
-}
-.Accueil main article{
-    height:300px;
-    width:450px;
     border-radius: 10px;
-    border: solid 1px black;
-    box-shadow: 5px 0px 10px black;
-}
-
-.Accueil main article{
-    margin: 2em;
-}
-
-.Accueil main section h2{
-    background-color: rgba(0,0,0, 0.3);
-    border-radius: 10px;
-    padding: 0.5em;
-    margin:0.5em;
-    color: white;
-    text-decoration: none;
-}
-
-.Accueil main div+section div article figure img{
-    border-radius: 10px;
-}
-
-/*@media (min-width: 800px)
-{
-
-.num1{
-    position: absolute;
-    width: 1000px;
-    height: 10px;
-    left: 57px;
-    top: 346px;
-}
-
-.rectangle2{
-    position: absolute;
-    width: 1293.63px;
-    height: 55.06px;
-    left: 55px;
-    top: 344px;
-
-    padding-left: 50px;
-    padding-top: 12px;
-
-    font-weight: bold;
-
-    background: #7BC8E8;
-    border-radius: 10px;
-
-    border : 2px solid black;
-}
-
-.rectangle3{
-    position: absolute;
-    width: 1293.63px;
-    height: 55.06px;
-    left: 55px;
-    top: 434px;
-
-    padding-left: 50px;
-    padding-top: 12px;
-
-    font-weight: bold;
-
-    background: #7BC8E8;
-    border-radius: 10px;
-
-    border : 2px solid black;
-}
-
-.rectangle4{
-    position: absolute;
-    width: 1293.63px;
-    height: 55.06px;
-    left: 55px;
-    top: 524px;
-
-    padding-left: 50px;
-    padding-top: 12px;
-
-    font-weight: bold;
-
-    background: #7BC8E8;
-    border-radius: 10px;
-
-    border : 2px solid black;
-}
-
-.rectangle5{
-    position: absolute;
-    width: 1293.63px;
-    height: 55.06px;
-    left: 55px;
-    top: 614px;
-
-    padding-left: 50px;
-    padding-top: 12px;
-
-    font-weight: bold;
-
-    background: #7BC8E8;
-    border-radius: 10px;
-
-    border : 2px solid black;
-}
-
-.rectangle6{
-    position: absolute;
-    width: 1293.63px;
-    height: 55.06px;
-    left: 55px;
-    top: 704px;
-
-    padding-left: 50px;
-    padding-top: 12px;
-
-    font-weight: bold;
-
-    background: #7BC8E8;
-    border-radius: 10px;
-
-    border : 2px solid black;
-}
-}
-
-.text1, .text2 {
-    width:200px;
-    float:left;
-}
-
-.text2{
-    padding-left: 975px;
-    padding-top: 0px;
-}
-
-@media (min-width: 320px) and (max-width: 799px)
-{
-    .rectangle2{
-        position: absolute;
-        width: 324.71px;
-        height: 40px;
-        left: 17px;
-        top: 126px;
-
-        padding-left: 50px;
-        padding-top: 12px;
-
-        font-weight: bold;
-
-        background: #7BC8E8;
-        border-radius: 10px;
-
-        border : 2px solid black;
-    }
-
-    .rectangle3{
-        position: absolute;
-        width: 324.71px;
-        height: 40px;
-        left: 17px;
-        top: 126px;
-
-        padding-left: 50px;
-        padding-top: 12px;
-
-        font-weight: bold;
-
-        background: #7BC8E8;
-        border-radius: 10px;
-
-        border : 2px solid black;
-    }
-
-    .rectangle4{
-        position: absolute;
-        width: 324.71px;
-        height: 40px;
-        left: 17px;
-        top: 126px;
-
-        padding-left: 50px;
-        padding-top: 12px;
-
-        font-weight: bold;
-
-        background: #7BC8E8;
-        border-radius: 10px;
-
-        border : 2px solid black;
-    }
-
-    .rectangle5{
-        position: absolute;
-        width: 324.71px;
-        height: 40px;
-        left: 17px;
-        top: 126px;
-
-        padding-left: 50px;
-        padding-top: 12px;
-
-        font-weight: bold;
-
-        background: #7BC8E8;
-        border-radius: 10px;
-
-        border : 2px solid black;
-    }
-
-    .rectangle6{
-        position: absolute;
-        width: 324.71px;
-        height: 40px;
-        left: 17px;
-        top: 126px;
-
-        padding-left: 50px;
-        padding-top: 12px;
-
-        font-weight: bold;
-
-        background: #7BC8E8;
-        border-radius: 10px;
-
-        border : 2px solid black;
-    }
-
-    .text1, .text2 {
-        width:200px;
-        float:left;
-    }
-
-    .text2{
-        padding-left: 975px;
-        padding-top: 0px;
-    }
 }
 
