@@ -60,8 +60,8 @@ header{
 
 header section nav{
     background-color: #7BC8E8;
-    border-radius: 30px!important;
-    border: 2px solid black!important;
+    border-radius: 30px;
+    border: 2px solid black;
 }
 
 header section nav ul li{
@@ -76,24 +76,20 @@ header section nav ul li{
 
 .accordion-item{
     margin: 20px 0px;
-
-    background-color: #7BC8E8;
-
-    border-radius: 10px!important;
+    background-color: #E8FCFE;
 }
 
 .flush-collapseOne{
-    margin: 15px 0px !important;
+    margin: 15px 0px;
 }
 
-img{
 
-    height: 7%;
-    width: 7%;
-
+main figure{
+    background-color: #7BC8E8;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
     border-radius: 10px;
+    width: 100%;
 }
 
-main div button{
-    font-size: 3em;
-}
