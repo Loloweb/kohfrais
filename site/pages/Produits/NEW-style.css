@@ -1,0 +1,99 @@
+@font-face{
+    font-family: 'butler';
+    src: url(../../polices/butler/Butler.woff)format('woff');
+    src: url(../../polices/butler/Butler.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open-sans';
+    src: url(../../polices/open_sans/opensans-regular-webfont.woff) format(woff);
+    src: url(../../polices/open_sans/opensans-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../../polices/poppins/poppins-regular-webfont.woff) format(woff);
+    src: url(../../polices/poppins/poppins-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nobile';
+    src: url(../../polices/nobile/nobile-regular-webfont.woff) format(woff);
+    src: url(../../polices/nobile/nobile-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:focus{
+    color:red;
+}
+a:active{
+    color:#E8FCFE;
+}
+
+h2{
+    font-family: 'poppins', arial, open-sans;
+}
+
+body{
+    background-color: #E8FCFE;
+}
+
+header{
+    font-family: 'nobile', arial, sans-serif;
+    background-color: #6AB0FE;
+    padding:1em;
+    border-bottom: 2px solid black;
+
+}
+
+header section nav{
+    background-color: #7BC8E8;
+    border-radius: 30px!important;
+    border: 2px solid black!important;
+}
+
+header section nav ul li{
+    font-size: 2em;
+    list-style: none;
+    text-align: center;
+}
+
+#accordionFlushExample{
+    padding: 100px 50px;
+}
+
+.accordion-item{
+    margin: 20px 0px;
+
+    background-color: #7BC8E8;
+
+    border-radius: 10px!important;
+}
+
+.flush-collapseOne{
+    margin: 15px 0px !important;
+}
+
+img{
+
+    height: 7%;
+    width: 7%;
+
+    border-radius: 10px;
+}
+
+main div button{
+    font-size: 3em;
+}
