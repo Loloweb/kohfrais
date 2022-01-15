@@ -58,13 +58,13 @@ header{
 
 }
 
-header section nav{
+header article nav{
     background-color: #7BC8E8;
     border-radius: 30px!important;
     border: 2px solid black!important;
 }
 
-header section nav ul li{
+header article nav ul li{
     font-size: 2em;
     list-style: none;
     text-align: center;
