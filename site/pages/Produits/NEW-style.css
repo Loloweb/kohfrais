@@ -102,7 +102,7 @@ main img{
     border-radius: 10px;
 }
 
-main figure p{
+main figure div{
     font-variant: small-caps;
     margin:1em;
 }
