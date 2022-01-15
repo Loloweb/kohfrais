@@ -70,9 +70,11 @@ header section nav ul li{
     text-align: center;
 }
 
+
 #accordionFlushExample{
     padding: 100px 50px;
 }
+
 
 .accordion-item{
     margin: 20px 0px;
@@ -91,4 +93,16 @@ main figure{
     padding: 1em;
     border-radius: 10px;
     width: 100%;
+}
+
+main img{
+    padding:0px !important;
+    margin:0px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+main figure p{
+    font-variant: small-caps;
+    margin:1em;
 }
