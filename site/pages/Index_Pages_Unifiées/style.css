@@ -492,7 +492,7 @@ header article nav ul li{
     text-decoration-line: underline;
 }
 
-.typeArticle+img,article+img,article+article,img+article
+.typeArticle+img, .produit_detaille article+img, .produit_detaille article+article,.produit_detaille img+article
 {
     
     
@@ -529,7 +529,7 @@ header article nav ul li{
 .produit_detaille h3{
     margin-bottom: 10px;
 }
-.produit_detaille article+article,article+img
+.produit_detaille article+article, .produit_detaille article+img
 {
     grid-row: 5;
 }
