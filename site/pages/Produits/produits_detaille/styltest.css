@@ -1,0 +1,276 @@
+/*****************************************************************************/
+/*************************** POLICES******************************************/
+/*****************************************************************************/
+
+@font-face{
+    font-family: 'butler';
+    src: url(../../polices/butler/Butler.woff)format('woff');
+    src: url(../../polices/butler/Butler.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open-sans';
+    src: url(../../polices/open_sans/opensans-regular-webfont.woff) format(woff);
+    src: url(../../polices/open_sans/opensans-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../../polices/poppins/poppins-regular-webfont.woff) format(woff);
+    src: url(../../polices/poppins/poppins-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nobile';
+    src: url(../../polices/nobile/nobile-regular-webfont.woff) format(woff);
+    src: url(../../polices/nobile/nobile-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*****************************************************************************/
+/******************************* GENERAL *************************************/
+/*****************************************************************************/
+.Accueil h2{
+    font-family: 'poppins', arial, open-sans;
+}
+
+body{
+    background-color: #E8FCFE;
+}
+
+
+/*****************************************************************************/
+/*************************** LIENS ******************************************/
+/*****************************************************************************/
+a{
+    color:black;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:focus{
+    color:red;
+}
+a:active{
+    color:#E8FCFE;
+}
+
+
+
+/*****************************************************************************/
+/*************************** HEADER ******************************************/
+/*****************************************************************************/
+
+
+header{
+    font-family: 'nobile', arial, sans-serif;
+    background-color: #6AB0FE;
+    padding:1em;
+    border-bottom: 2px solid black;
+
+}
+
+header article nav{
+    background-color: #7BC8E8;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header article nav ul li{
+    font-size: 2em;
+    list-style: none;
+    text-align: center;
+}
+
+/************************************************************************************************/
+/**************************** PRODUITS DETAILLES ************************************************/
+/************************************************************************************************/
+
+body {
+
+    background-color: #E8FCFE;
+}
+
+main
+{
+    display: grid;
+    
+    grid-template-columns: 1fr repeat(7,120px) 1fr;
+    grid-template-rows:8em 75px 240px 42px 240px 8em;
+    
+
+   
+    
+}
+
+.typeArticle
+{
+    grid-column: 2;
+    background-color: hsl(212, 99%, 71%);
+   grid-row: 2;
+    
+    width: 300px;
+    height: 45px;
+    
+    
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-family: 'nobile', arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+   
+    
+    text-align: center;
+    align-self: flex-start;
+    
+    text-decoration-line: underline;
+}
+
+.typeArticle+img,article+img,article+article,img+article
+{
+    
+    
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 360px;
+    height: 240px;
+   
+
+}
+.typeArticle+img
+{
+     grid-column: 2;
+}
+
+.typeArticle+img,img+article
+{
+    grid-row: 3;
+}
+
+img+article
+{
+     grid-column: 6;
+     padding: 1px;
+    font-family: 'nobile', arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background-color:#6AB0FE;
+    padding: 20px;
+   
+    
+    text-align: justify;
+}
+h3{
+    margin-bottom: 10px;
+}
+article+article,article+img
+{
+    grid-row: 5;
+}
+article+article
+{
+    grid-column: 2;
+    padding: 20px;
+    font-family: 'nobile', arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background-color:#6AB0FE;
+   
+    
+    text-align: justify;
+}
+article+img
+{
+    grid-column: 6;
+}
+
+
+
+article h3{
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul
+{
+    display: grid;
+   grid-template-columns: 180px 1fr 100px;
+   grid-template-rows: repeat(2,30px);
+   margin-left: -33px;
+   
+   
+
+}
+.LISTES{
+    display: grid;
+    grid-template-rows: 20px  ;
+    
+}
+
+.liste,.liste+li+li{
+    grid-column: 3;
+}
+li
+{
+    list-style-type: none;
+}
+li img{
+    height: 20px;
+    width: 30px;
+    
+}
+@media screen  and (max-width:869px ){ 
+    main
+    {
+        display: grid;
+        
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows:8em 75px 240px 22px 240px 22px 240px 8em;
+    }
+    .typeArticle
+    {
+        justify-self: center;
+    }
+    article+img
+    {
+        display: none;
+        
+    }
+    img+article
+    {
+        grid-row: 5;
+        grid-column: 2;
+    }
+    article+article 
+    {
+        grid-column: 2;
+        grid-row: 7;
+    }
+
+}
+
+/*****************************************************************************/
+/**************************** FOOTER *****************************************/
+/*****************************************************************************/
+
+.Footer footer{
+    background-color: #6AB0FE;
+    border: 1px solid black;
+}
+.Footer footer section{
+    margin: 1em;
+}
+.Footer footer p{
+    margin:1em;
+}
