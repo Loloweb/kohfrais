@@ -1,0 +1,464 @@
+/*****************************************************************************/
+/*************************** POLICES******************************************/
+/*****************************************************************************/
+
+@font-face{
+    font-family: 'butler';
+    src: url(polices/butler/Butler.woff)format('woff');
+    src: url(polices/butler/Butler.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open-sans';
+    src: url(polices/open_sans/opensans-regular-webfont.woff) format(woff);
+    src: url(polices/open_sans/opensans-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(polices/poppins/poppins-regular-webfont.woff) format(woff);
+    src: url(polices/poppins/poppins-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nobile';
+    src: url(polices/nobile/nobile-regular-webfont.woff) format(woff);
+    src: url(polices/nobile/nobile-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*****************************************************************************/
+/******************************* GENERAL *************************************/
+/*****************************************************************************/
+h1{
+    font-family: 'nobile', arial, open-sans;
+    font-size: 2em;
+}
+h2{
+    font-family: 'poppins', arial, open-sans;
+    font-size: 1.5em;
+}
+
+body{
+    background-color: #E8FCFE;
+}
+
+p{
+    font-size: 1em;
+}
+
+/*****************************************************************************/
+/*************************** MEDIA QUERY *************************************/
+/*****************************************************************************/
+@media screen and (min-width: 992px) and (max-width: 1000000px) {
+
+    .Accueil .slide_1 img{
+        width:33%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .Accueil .slide_1 img{
+        width:50%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+    .Accueil .slide_1 img{
+        width:90%;
+    }
+}
+
+/*****************************************************************************/
+/*************************** LIENS ******************************************/
+/*****************************************************************************/
+a{
+    color:black;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:focus{
+    color:red;
+}
+a:active{
+    color:#E8FCFE;
+}
+
+
+
+/*****************************************************************************/
+/*************************** HEADER ******************************************/
+/*****************************************************************************/
+
+
+header{
+    font-family: 'nobile', arial, sans-serif;
+    background-color: #6AB0FE;
+    padding:1em;
+    border-bottom: 2px solid black;
+
+}
+
+header article nav{
+    background-color: #7BC8E8  ;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header article nav ul li{
+    font-size: 2em;
+    list-style: none;
+    text-align: center;
+}
+
+/*****************************************************************************/
+/*************************** ACCUEIL *****************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/****************************** CAROUSEL ************************************/
+/*****************************************************************************/
+
+
+.Accueil #Carousel{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.Accueil #Carousel img{
+    height: 300px;
+}
+
+.Accueil #Carousel{
+    font-family: 'poppins', arial, open-sans;
+}
+
+.Accueil .slide_1 img{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Accueil .slide_1{
+    height:450px;
+    background-color: #E8FCFE;
+}
+.Accueil .slide_1 h2:first-child{
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.Accueil .slide_1 img+h2{
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.Accueil .slide_2 {
+    background-image: url(PHOTOS/Fruits_framboises.jpg);
+    background-repeat: no-repeat;
+    height:450px;
+
+}
+.Accueil .slide_2 h2:first-child{
+    width:auto;
+    border-radius: 10px;
+    padding: 0.5em;
+    color: white;
+}
+
+.Accueil .slide_3 h2:first-child {
+    border-radius: 10px;
+    padding: 0.5em;
+    color: white;
+}
+
+.Accueil .slide_3 figure+h2{
+    border-radius: 10px;
+    padding: 0.5em;
+    color: white;
+}
+
+.Accueil .slide_3 {
+    background-color: #6AB0FE;
+    height:450px;  
+}
+
+/*****************************************************************************/
+/****************************** MAIN *****************************************/
+/*****************************************************************************/
+
+
+.Accueil main{
+    text-align: center;
+}
+
+.Accueil main section{
+    margin:1em;
+}
+
+.Accueil main section article{
+    text-align: center;
+}
+
+.Accueil main div p{
+    font-size: 5em;
+}
+.Accueil .separation{
+    font-weight: bold;
+    font-size: 5px;
+}
+
+/*******POUR LES FAMILLES*********/
+
+.Accueil main div+section article:first-child{
+    background-image: url(PHOTOS/photo_famille.jpg);
+}
+
+/*******POUR LES PROFESSIONNEL*********/
+
+.Accueil main div+section article+article{
+    background-image: url(PHOTOS/Pro.jpeg);
+}
+
+/*******OU SOMMES NOUS*********/
+
+.Accueil main section+section div article{
+    background-image: url(PHOTOS/bretagne.png);
+}
+/*******QUI SOMMES NOUS*********/
+
+.Accueil main section+section div article+article{
+    background-image: url(PHOTOS/Bac_glace2.jpg);
+
+}
+.Accueil main article{
+    height:300px;
+    width:450px;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 5px 0px 10px black;
+}
+
+.Accueil main article{
+    margin: 2em;
+}
+
+.Accueil main section h2{
+    background-color: rgba(0,0,0, 0.3);
+    border-radius: 10px;
+    padding: 0.5em;
+    margin:0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.Accueil main div+section div article figure img{
+    border-radius: 10px;
+}
+/*****************************************************************************/
+/******************************* QUI *****************************************/
+/*****************************************************************************/
+
+.Qui {
+    height:auto;
+    background-color: #E8FCFE;
+    padding:1em;
+}
+
+.Qui article{
+    margin:1em 3em;
+    padding: 0em;
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 10px;
+    width: 300px;
+}
+
+.Qui p, .Qui h2{
+    margin:1em;
+}
+.Qui img{
+    width:100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Qui article p{
+    text-align: justify;
+}
+
+.Qui div+div article{
+    width: auto;
+}
+
+
+
+/*****************************************************************************/
+/******************************* PRODUITS ************************************/
+/*****************************************************************************/
+
+.produits #accordionFlushExample{
+    padding: 100px 50px;
+}
+
+
+.produits .accordion-item{
+    margin: 20px 0px;
+    background-color: #E8FCFE;
+}
+
+.produits .flush-collapseOne{
+    margin: 15px 0px;
+}
+
+
+.produits figure{
+    background-color: #7BC8E8;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.produits img{
+    padding:0px !important;
+    margin:0px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width:125px;
+    height: 130px;
+}
+
+.produits figure div{
+    font-variant: small-caps;
+    margin:1em;
+}
+
+
+/*****************************************************************************/
+/******************************* WHERE ***************************************/
+/*****************************************************************************/
+
+.where{
+    text-align: center;
+}
+
+.where section{
+    margin:1em;
+}
+
+.where section article{
+    text-align: center;
+}
+
+
+
+.where div p{
+    font-size: 2.5em;
+}
+
+
+.where section:first-of-type h2{
+    display:block;
+    border: black solid 2px;
+    border-bottom: none;
+    padding: 0em;
+    margin:0px;
+    height: 2em;
+    box-shadow: 3px 5px 10px black;
+}
+
+.where section:first-of-type figure{
+    border: black solid 2px;
+    border-top: none;
+    margin: 0em;
+    padding: 0em;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.where img.sorry{
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    max-width: 100%;
+    box-shadow: 5px 0px 10px black;
+}
+
+.where div+section div article:first-child figure img:first-child{
+    display: inline-block;
+    position: absolute;
+    top:30px;
+    right: 150px;
+    height:120px;
+    width: 66px;
+    background-color: rgba(0,0,0,0);
+    z-index: 0;
+}
+
+.where div+section div article:first-child h2{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    background-color: rgba(0,0,0, 0.2);
+    border-radius: 10px;
+    padding: 0.5em;
+    color: white;
+    border-radius: 10px;
+}
+
+.where div+section div article figure img{
+    border-radius: 10px;
+}
+
+.where div+section div article+article h2{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    background-color: rgba(0,0,0, 0.2);
+    border-radius: 10px;
+    padding: 0.5em;
+    color: white;
+    border-radius: 10px;
+}
+
+#map1, #map2 { 
+    display:inline-block;
+    flex-direction: row;
+    height: 400px;
+    width: 50%;
+    border-radius: 0px;
+    border: black solid 2px;
+    padding: 0em;
+    margin:0px;
+    box-shadow: 3px 5px 10px black;
+}
+/*****************************************************************************/
+/**************************** FOOTER *****************************************/
+/*****************************************************************************/
+
+footer{
+    background-color: #6AB0FE;
+    border: 1px solid black;
+}
+footer section{
+    margin: 1em;
+}
+footer p{
+    margin:1em;
+}
