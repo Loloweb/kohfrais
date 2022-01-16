@@ -129,7 +129,7 @@ main section:first-of-type figure{
 main img.sorry{
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    width: 100%;
+    max-width: 100%;
     box-shadow: 5px 0px 10px black;
 }
 

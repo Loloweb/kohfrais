@@ -7,21 +7,21 @@
         <meta name="keywords" content="KOH Frais, congelé, bio, Bretagne, produit en Bretagne, frais, glaces, coulis, Lannion, Pontivy">
         <title>KOH Frais Nous Trouver</title>
         <link rel="stylesheet" href="../../bootstrap-5.1.3-dist/css/bootstrap.css">
-        <link rel="stylesheet" href="../../bootstrap-5.1.3-dist/js/bootstrap.js">
-        <link rel="stylesheet" href="style_where.css">
         <link rel="stylesheet" href="../../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style_where.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!--Internet required-->
-        <script src="./where.js"></script> <!-- for google maps widget ...mostly -->
-        <script src="../../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script> <!--I can't believe i was stumped on this-->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <!-- These break navbars, but also breaks map alignment... Why did I use this? -->
+        <script src="./where.js"></script>
+        <script src="../../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 
 
     </head>
     <body>
         <div class="container-fluid">
 
-            <header class="row align-items-center">
+            <header class="row align-items-center top">
 
                     
                 <div class="col-auto justify-content-center align-items-center logo">
@@ -70,7 +70,7 @@
             <main>
                 <section>
                     <div class="row justify-content-center">
-                        <article class="col-lg-10">
+                        <article class="row col-lg-10">
                                 <h2>Nos sites de production</h2>
 
                             <div id="map1" class="col-lg-4"></div> <!-- map Lannion -->
@@ -92,8 +92,7 @@
                         <article class="col-lg-6 ">
                             
                             <figure>
-                                <img src="../../PHOTOS/bretagne.png" alt="Bretagne" height="500px" class="sorry">
-                                
+                                <img src="../../PHOTOS/bretagne.png" alt="Bretagne" width="730px" height="500px" class="sorry">
                             </figure>
                         </article>
                         <article class="col-lg-4">
@@ -109,6 +108,36 @@
             </main>
 
             <footer class="row">
+                <div class="d-inline-flex">
+                    <section class="col-3">
+                        <div class="row">
+                            <p class="col-auto">haut de page</p>
+                            <figure class="col-auto d-inline-block"> 
+                                <a href="#top"><img src="../Accueil/PHOTOS/flecheHaut.png" alt="retour en haut de page" height="50"></a>
+                            </figure>
+                        </div>
+                        
+                    </section>
+    
+    
+                    <section class="col-8">
+                        <p class="row">webmasters</p> 
+
+                        <section class="row">
+                            <div class="col-auto">
+                                <p><a href="mailto:louan.robert@etudiant.univ-rennes1.fr">louan.robert@etudiant.univ-rennes1.fr</a></p>
+                                <p><a href="mailto:arthus.glandy@etudiant.univ-rennes1.fr">arthus.glandy@etudiant.univ-rennes1.fr</a></p>
+                            </div>
+
+                            <div class="col-auto">
+                                <p><a href="mailto:aubin.saby@etudiant.univ-rennes1.fr">aubin.saby@etudiant.univ-rennes1.fr</a></p>
+                                <p><a href="mailto:lowell.gautier@etudiant.univ-rennes1.fr">lowell.gautier@etudiant.univ-rennes1.fr</a></p>
+                            </div>
+                        </section>
+                    </section>
+                    
+                </div>
+                
             </footer>
         </div>
     </body>
