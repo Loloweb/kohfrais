@@ -462,10 +462,6 @@ header article nav ul li{
     
     grid-template-columns: 1fr repeat(7,120px) 1fr;
     grid-template-rows:8em 75px 240px 42px 240px 8em;
-    
-
-   
-    
 }
 
 .typeArticle
